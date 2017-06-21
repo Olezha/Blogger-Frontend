@@ -8,6 +8,14 @@ https://www.pinterest.com/pin/332984966185733406/
 #d5ddde
 */
 
+a {
+    color: #6b8e4e;
+}
+
+a:hover {
+    color: #3c5148;
+}
+
 .navbar {
     margin-bottom: 0;
 }
