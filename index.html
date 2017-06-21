@@ -27,6 +27,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="/">Blogger Frontend</a>
+                    <b:section id="navbar-brand-section" class="navbar-brand" />
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
@@ -36,6 +37,7 @@
             </div>
         </nav>
 
+        <b:if cond='data:blog.pageType == "index"'>
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -76,10 +78,29 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        </b:if>
 
-
-        <b:section id="main-section" />
-
+        <div class="container">
+            <b:section id="main-section">
+                <b:widget id='HTML1' locked='false' type='HTML'>
+                    <b:includable id='main'>
+                        <b:if cond='data:blog.pageType == "static_page"'>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <b:if cond='data:title != ""'>
+                                        <h2 class='title'><data:title /></h2>
+                                    </b:if>
+                                    <div class='widget-content'>
+                                        <data:content />
+                                    </div>
+                                    <b:include name='quickedit' />
+                                </div>
+                            </div>
+                        </b:if>
+                    </b:includable>
+                </b:widget>
+            </b:section>
+        </div>
 
         <div class="footer">
             <div class="container">
@@ -117,7 +138,7 @@
                         </dl>
                     </div>
                     <div class="col-md-4">
-                        <iframe src="http://maps.google.com/maps?q=Державний політехнічний музей при НТУУ КПІ&amp;z=12&amp;output=embed" width="100%" height="250"></iframe>
+                        <iframe src="http://maps.google.com/maps?q=Державний політехнічний музей при НТУУ КПІ&amp;z=12&amp;output=embed" width="100%" height="290"></iframe>
                     </div>
                     <div class="col-md-4">
                         <b:section id="footer-col3-section" />
