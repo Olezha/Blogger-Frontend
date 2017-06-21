@@ -38,6 +38,7 @@
         </nav>
 
         <b:if cond='data:blog.pageType == "index"'>
+        <b:if cond='data:blog.isMobileRequest == "false"'>
         <div id="carousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -78,6 +79,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+        </b:if>
         </b:if>
 
         <div class="container">
@@ -127,9 +129,9 @@
                         <h1><span itemprop="name">ACME Hotel Innsbruck</span></h1>
                         <span itemprop="description">A beautifully located business hotel right in the heart of the alps. Watch the sun rise over the scenic Inn valley while enjoying your morning coffee.</span>
                         <div itemprop="address" itemscope="itemscope" itemtype="http://schema.org/PostalAddress">
-                            <span itemprop="streetAddress">Technikerstrasse 21</span>
-                            <span itemprop="postalCode">6020</span>
-                            <span itemprop="addressLocality">Innsbruck</span>
+                            <span itemprop="streetAddress">Technikerstrasse 21</span>,
+                            <span itemprop="postalCode">6020</span>,
+                            <span itemprop="addressLocality">Innsbruck</span>,
                             <span itemprop="addressRegion">Tyrol</span>,
                             <span itemprop="addressCountry">Austria</span>
                         </div>
