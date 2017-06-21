@@ -24,6 +24,10 @@ https://www.pinterest.com/pin/332984966185733406/
     padding-bottom: 20px;
 }
 
+.footer a, .footer a:hover {
+    color: #fff;
+}
+
 .footer .widget.ContactForm h2 {
     margin-top: 0;
 }
@@ -39,6 +43,7 @@ https://www.pinterest.com/pin/332984966185733406/
     font-size: 14px;
     padding-left: 30px;
     padding-right: 30px;
+    background-color: transparent;
     background-image: none;
     border: 1px solid #fff;
 }
