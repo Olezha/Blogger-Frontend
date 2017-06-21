@@ -61,3 +61,13 @@ a:hover {
     width: 100% !important;
     margin-top: 30px;
 }
+
+iframe#comment-editor {
+    height: 280px;
+}
+
+input#postCommentSubmit {
+    width: auto;
+    background-color: #3c5148;
+    border: 1px solid #1b2726;
+}
