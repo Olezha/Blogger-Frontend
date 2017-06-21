@@ -36,6 +36,11 @@ a:hover {
     color: #fff;
 }
 
+.footer h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
 .footer .widget.ContactForm h2 {
     margin-top: 0;
 }
