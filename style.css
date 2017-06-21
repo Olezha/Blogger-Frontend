@@ -1,3 +1,13 @@
+/*
+Colour reference
+https://www.pinterest.com/pin/332984966185733406/
+#1b2726
+#3c5148
+#6b8e4e
+#b2c5b3
+#d5ddde
+*/
+
 .navbar {
     margin-bottom: 0;
 }
@@ -8,8 +18,8 @@
 
 .footer {
     color: #fff;
-    background-color: #4682B4;
-    border-top: 7px solid #6495ED;
+    background-color: #3c5148;
+    border-top: 7px solid #d5ddde;
     padding-top: 20px;
     padding-bottom: 20px;
 }
