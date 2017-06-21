@@ -5,3 +5,45 @@
 .carousel .item img {
     width: 100%;
 }
+
+.footer {
+    color: #fff;
+    background-color: #4682B4;
+    border-top: 7px solid #6495ED;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer a, .footer a:hover {
+    color: #fff;
+}
+
+.footer form input,
+.footer form textarea,
+.footer form button,
+.footer form button:hover {
+    color: #fff;
+    background-color: transparent;
+}
+
+.footer form button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.footer form ::-webkit-input-placeholder {
+  color: #fff;
+}
+.footer form ::-moz-placeholder {
+  color: #fff;
+}
+.footer form :-ms-input-placeholder {
+  color: #fff;
+}
+.footer form :-moz-placeholder {
+  color: #fff;
+}
+
+#gsInformerID-LdG1G2wEj4r8AY {
+    width: 100% !important;
+}
