@@ -75,11 +75,12 @@ hr {
 }
 
 #comment-editor {
-    height: 280px;
+    height: 400px;
 }
 
+/* TODO */
 #postCommentSubmit {
-    width: auto;
-    background-color: #3c5148;
-    border: 1px solid #1b2726;
+    width: auto !important;
+    background-color: #3c5148 !important;
+    border: 1px solid #1b2726 !important;
 }
