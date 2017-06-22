@@ -68,9 +68,10 @@ a:hover {
 }
 
 #comment-editor {
-    height: 350px;
+    height: 400px;
 }
 
+/* TODO */
 #postCommentSubmit {
     width: auto !important;
     background-color: #3c5148 !important;
