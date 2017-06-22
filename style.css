@@ -16,6 +16,13 @@ a:hover {
     color: #1b2726;
 }
 
+hr {
+    display: block;
+    border: 0;
+    height: 10px;
+    background-image:url('https://rawcdn.githack.com/Olezha/Blogger-Frontend/master/img/spruce_hr.png');
+}
+
 .navbar {
     margin-bottom: 0;
 }
