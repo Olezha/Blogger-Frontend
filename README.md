@@ -1,2 +1,2 @@
 # Blogger Frontend
-http://frontend-sandbox.blogspot.com/
+https://brand-building-site.blogspot.com/
