@@ -8,6 +8,10 @@ https://www.pinterest.com/pin/332984966185733406/
 #d5ddde
 */
 
+body {
+    font-size: 16px;
+}
+
 a {
     color: #6b8e4e;
 }
@@ -29,6 +33,14 @@ hr {
 
 .carousel .item img {
     width: 100%;
+}
+
+.carousel .carousel-caption {
+    padding-bottom: 50px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
 }
 
 .footer {
