@@ -8,6 +8,10 @@ https://www.pinterest.com/pin/332984966185733406/
 #d5ddde
 */
 
+body {
+    font-size: 16px;
+}
+
 a {
     color: #6b8e4e;
 }
