@@ -31,17 +31,22 @@ hr {
     margin-bottom: 0;
 }
 
-.carousel .item img {
+#carousel .item img {
     width: 100%;
 }
 
-.carousel .carousel-caption {
+#carousel .carousel-caption {
     padding-top: 10px;
     padding-bottom: 40px;
     right: 0;
     left: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .7);
+}
+
+#carousel .carousel-control .glyphicon-chevron-left,
+#carousel .carousel-control .glyphicon-chevron-right {
+    top: 40%;
 }
 
 .footer {
