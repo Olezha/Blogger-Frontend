@@ -44,6 +44,10 @@ hr {
     background-color: rgba(0, 0, 0, .7);
 }
 
+#carousel .carousel-indicators {
+    z-index: 1;
+}
+
 .footer {
     color: #fff;
     background-color: #3c5148;
