@@ -44,11 +44,6 @@ hr {
     background-color: rgba(0, 0, 0, .7);
 }
 
-#carousel .carousel-control .glyphicon-chevron-left,
-#carousel .carousel-control .glyphicon-chevron-right {
-    top: 40%;
-}
-
 .footer {
     color: #fff;
     background-color: #3c5148;
