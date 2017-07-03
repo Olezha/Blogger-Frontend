@@ -44,6 +44,10 @@ hr {
     background-color: rgba(0, 0, 0, .7);
 }
 
+#carousel a:hover {
+    color: #fff;
+}
+
 #carousel .carousel-control .glyphicon-chevron-left,
 #carousel .carousel-control .glyphicon-chevron-right {
     top: 40%;
