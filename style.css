@@ -105,3 +105,8 @@ hr {
     background-color: #3c5148 !important;
     border: 1px solid #1b2726 !important;
 }
+
+.post-body img,
+.post-body iframe {
+    max-width: 100% !important;
+}
