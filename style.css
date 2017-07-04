@@ -108,5 +108,5 @@ hr {
 
 .post-body img,
 .post-body iframe {
-    max-width: 90% !important;
+    max-width: 100% !important;
 }
